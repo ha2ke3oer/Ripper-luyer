@@ -5,9 +5,9 @@ local entity = Creator.createEntity({
     Model = "rbxassetid:////12434097362", -- Can be GitHub file or rbxassetid
     Speed = 185, -- Percentage, 100 = default Rush speed
     DelayTime = 1, -- Time before starting cycles (seconds)
-    HeightOffset = 0,
+    HeightOffset = 9,
     CanKill = true,
-    KillRange = 40,
+    KillRange = 4000,
     BreakLights = true,
     BackwardsMovement = false,
     FlickerLights = {
