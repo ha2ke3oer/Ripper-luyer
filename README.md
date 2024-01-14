@@ -2,9 +2,9 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 -- Create entity
 local entity = Creator.createEntity({
     CustomName = "Ripper", -- Custom name of your entity
-    Model = "rbxassetid:////12434097362", -- Can be GitHub file or rbxassetid
+    Model = "12262768551", -- Can be GitHub file or rbxassetid
     Speed = 185, -- Percentage, 100 = default Rush speed
-    DelayTime = 1, -- Time before starting cycles (seconds)
+    DelayTime = 3, -- Time before starting cycles (seconds)
     HeightOffset = 9,
     CanKill = true,
     KillRange = 4000,
@@ -27,16 +27,16 @@ local entity = Creator.createEntity({
     Jumpscare = {
         true, -- Enabled/Disabled
         {
-            Image1 = "rbxassetid://12434097362", -- Image1 url
-            Image2 = "rbxassetid://12434097362", -- Image2 url
+            Image1 = "rbxassetid://11826279255", -- Image1 url
+            Image2 = "rbxassetid://8158384019", -- Image2 url
             Shake = true,
             Sound1 = {
-                10483790459, -- SoundId
-                { Volume = 0.5 }, -- Sound properties
+                4067643809, -- SoundId
+                { Volume = 5 }, -- Sound properties
             },
             Sound2 = {
-                10483837590, -- SoundId
-                { Volume = 0.5 }, -- Sound properties
+                4067643809, -- SoundId
+                { Volume = 5 }, -- Sound properties
             },
             Flashing = {
                 true, -- Enabled/Disabled
